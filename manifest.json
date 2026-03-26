@@ -1,0 +1,28 @@
+{
+  "name": "model_priority",
+  "version": "1.0.0",
+  "description": "控制模型使用的优先顺序",
+  "author": "MoFox Team",
+  "dependencies": {
+    "plugins": [],
+    "components": []
+  },
+  "include": [
+    {
+      "component_type": "config",
+      "component_name": "model_priority_config",
+      "dependencies": [],
+      "enabled": true
+    },
+    {
+      "component_type": "event_handler",
+      "component_name": "model_priority_handler",
+      "dependencies": [],
+      "enabled": true
+    }
+  ],
+  "entry_point": "plugin.py",
+  "min_core_version": "1.0.0",
+  "python_dependencies": [],
+  "dependencies_required": true
+}
